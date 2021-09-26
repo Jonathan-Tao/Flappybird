@@ -9,6 +9,7 @@ keyboard = Controller()
 keyboard.press(Key.space)
 keyboard.release(Key.space)
 
+#Word Typing Script
 #while x == True:
 
 #    time.sleep(1)
