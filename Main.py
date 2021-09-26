@@ -6,22 +6,15 @@ x = True
 
 keyboard = Controller()
 
-while x == True:
+keyboard.press(Key.space)
+keyboard.release(Key.space)
 
-    time.sleep(1)
-    for char in "sin":
-        keyboard.press(char)
-        keyboard.release(char)
-        
-    keyboard.press(Key.enter)
-    keyboard.release(Key.enter)sin
-    sin
-    sin
-    sin
-   sinsin
-   sin
+#while x == True:
 
-
-sin
-sin
-sin
+#    time.sleep(1)
+#    for char in "sin":
+#        keyboard.press(char)
+#        keyboard.release(char)
+#        
+#    keyboard.press(Key.enter)
+#    keyboard.release(Key.enter)
